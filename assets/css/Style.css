@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2E1AC;
+    color: #F29D52;
+    margin-top: 60px; /* Espace pour la navbar fixe */
+}
+
+.marcellus-regular {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+.navbar {
+    background-color: #591E1E; 
+    color: whitesmoke;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-brand {
+    flex-grow: 1;
+    text-align: start;
+    justify-content: start;
+    font-family: 'Great Vibes', cursive;
+}
+.navbar-button-text{
+    
+    color: whitesmoke;
+}
+
+.navbar-brand span {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.logo-container img {
+    height: 80px;
+}
+
+.banner {
+    background-color: whitesmoke;
+    color: #591E1E;
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+}
+
+.banner img {
+    max-height: 300px; 
+    width: auto;
+}
+
+
+.slogan {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    color: #591E1E;
+
+}
+
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+}
+.hero img {
+    max-width: 300px;
+    position: absolute;
+}
+.hero-content {
+    position: relative;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.section-heading {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    margin: 3rem 0;
+}
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
