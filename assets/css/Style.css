@@ -4,6 +4,11 @@ body {
     margin-top: 100px !important; /* Espace pour la navbar fixe */
 }
 
+p{
+    color: #591E1E;
+
+}
+
 .marcellus-regular {
     font-family: "Marcellus", serif;
     font-weight: 400;
@@ -110,3 +115,24 @@ body {
 }
 
 
+#specialites .carousel-caption {
+
+    border-radius: 10px;
+    padding: 20px;
+    text-shadow: none;
+
+}
+
+#specialites h2 {
+    font-family: 'Great Vibes', cursive;
+    color: #591E1E;
+}
+
+#specialites h3 {
+    font-family: "Marcellus", serif;
+    color: #591E1E;
+}
+
+.special-text {
+    font-family: "Marcellus", serif;
+}
