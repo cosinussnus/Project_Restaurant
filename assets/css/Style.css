@@ -1,8 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #F2E1AC;
-    color: #F29D52;
-    margin-top: 60px; /* Espace pour la navbar fixe */
+    background-color: #fefee2 !important;
+    margin-top: 100px !important; /* Espace pour la navbar fixe */
 }
 
 .marcellus-regular {
@@ -14,7 +13,7 @@ body {
 .navbar {
     background-color: #591E1E; 
     color: whitesmoke;
-    position: fixed;
+    position: fixed !important;
     top: 0;
     width: 100%;
     z-index: 1000;
@@ -36,7 +35,7 @@ body {
 .navbar-brand span {
     font-family: 'Great Vibes', cursive;
     font-size: 1.5rem;
-    color: whitesmoke;
+    color: #fefee2;
 }
 .logo-container {
     display: flex;
@@ -49,7 +48,7 @@ body {
 }
 
 .banner {
-    background-color: whitesmoke;
+    background-color: #fefee2;
     color: #591E1E;
     padding: 50px 0;
     text-align: center;
@@ -77,34 +76,37 @@ body {
 }
 
 
-.hero {
+.parchemin {
+    background: #fff0bc;
+    background-size: cover;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #332;
+    font-family: 'Great Vibes', cursive;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: whitesmoke;
-    color: black;
-    text-align: center;
-}
-.hero img {
-    max-width: 300px;
-    position: absolute;
-}
-.hero-content {
-    position: relative;
-    padding: 2rem;
-    border-radius: 10px;
-    max-width: 600px;
 }
 
-.section-heading {
+.titre-conte {
+    font-size: 3rem;
+    color: #591E1E;
     text-align: center;
-    font-family: 'Great Vibes', cursive;
-    margin: 3rem 0;
+    margin-bottom: 20px;
 }
-.footer {
-    background-color: #343a40;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
+
+.texte-conte {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
 }
+
+.texte-conte::first-letter {
+    font-size: 3rem;
+    color: #591E1E;
+    float: left;
+    margin-right: 10px;
+    line-height: 1;
+}
+
+
